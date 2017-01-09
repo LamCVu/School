@@ -6,7 +6,8 @@ author: Lam Vu
 
 
 ###Analysis of Sample 1:
-![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2-1.png)![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2-2.png)
+![](NonparametricPlots/unnamed-chunk-2-1.png)
+![](NonparametricPlots/unnamed-chunk-2-2.png)
 
 From these diagnostic plots I conclude that the data from sample 1 is not normally distributed and is skewed to the left. Since the data seems to violate the assumption of normality I decided to use nonparametric methods.
 
@@ -24,7 +25,7 @@ sample estimates: probability of success  0.8
 From the test I obtained a p-value smaller than alpha= 0.05, so I reject the null hypothesis and conclude that mu> 0.
 
 ##Analysis of Sample 2:
-![plot of chunk unnamed-chunk-3](figure/unnamed-chunk-3-1.png)![plot of chunk unnamed-chunk-3](figure/unnamed-chunk-3-2.png)![plot of chunk unnamed-chunk-3](figure/unnamed-chunk-3-3.png)![plot of chunk unnamed-chunk-3](figure/unnamed-chunk-3-4.png)
+![](NonparametricPlots/unnamed-chunk-3-1.png)![](NonparametricPlots/unnamed-chunk-3-2.png)![](NonparametricPlots/unnamed-chunk-3-3.png)![](NonparametricPlots/unnamed-chunk-3-4.png)
 
 
 Both dataset in sample 2 do not look normally distribution which violated the normality assumption, I decided to use nonparametric methods. Since sample 2 contains two sample I will use a two sample method. Since the data are paired I assume are chosen randomly and independently and came from the same population. Using the  Wilcoxon Rank Sum Test, I assume that no two observations are the same and the ranks are distinct. 
@@ -133,11 +134,11 @@ I then produced a plot of the cumulative distribution function of both data. The
 ## alternative hypothesis: the CDF of x lies below that of y
 ```
 
-![](figure/unnamed-chunk-7-1.png)
+![](NonparametricPlots/unnamed-chunk-7-1.png)
 
 
 ###Analysis of Sample 3:
-![plot of chunk unnamed-chunk-8](figure/unnamed-chunk-8-1.png)![plot of chunk unnamed-chunk-8](figure/unnamed-chunk-8-2.png)![plot of chunk unnamed-chunk-8](figure/unnamed-chunk-8-3.png)![plot of chunk unnamed-chunk-8](figure/unnamed-chunk-8-4.png)
+![](NonparametricPlots/unnamed-chunk-8-1.png)![](NonparametricPlots/unnamed-chunk-8-2.png)![](NonparametricPlots/unnamed-chunk-8-3.png)![](NonparametricPlots/unnamed-chunk-8-4.png)
 From the histogram and normal probability plot of sample 3 both dataset seems to violate the assumption of normality thus I will use a nonparametric method.
 For sample 3 to compared the distributions I will using the Kolmogorov-Smirnov Test
 
@@ -158,7 +159,7 @@ Using alpha= 0.05, the critical value would be 6.805438 which is greater than 0.
 
 
 ###Analysis of Sample 4:
-![plot of chunk unnamed-chunk-9](figure/unnamed-chunk-9-1.png)![plot of chunk unnamed-chunk-9](figure/unnamed-chunk-9-2.png)![plot of chunk unnamed-chunk-9](figure/unnamed-chunk-9-3.png)![plot of chunk unnamed-chunk-9](figure/unnamed-chunk-9-4.png)![plot of chunk unnamed-chunk-9](figure/unnamed-chunk-9-5.png)![plot of chunk unnamed-chunk-9](figure/unnamed-chunk-9-6.png)
+![](NonparametricPlots/unnamed-chunk-9-1.png)![](NonparametricPlots/unnamed-chunk-9-2.png)![](NonparametricPlots/unnamed-chunk-9-3.png)![](NonparametricPlots/unnamed-chunk-9-4.png)![](NonparametricPlots/unnamed-chunk-9-5.png)![](NonparametricPlots/unnamed-chunk-9-6.png)
 
 From these plots which indicated the datasets from sample 4 violated the assumptions of normality, thus I decided to use nonparametric methods.
 
