@@ -113,11 +113,10 @@ data:  y1 and y2
 D^- = 0, p-value = 1  
 alternative hypothesis: the CDF of x lies below that of y
 
-+----+----+----+-----+----+-----+-----+
-|a   |0.10|0.05|0.025|0.01|0.005|0.001|
-+----+----+----+-----+----+-----+-----+
-|c(a)|1.22|1.36|1.48 |1.63|1.73 |1.95 |
-+----+----+----+-----+----+-----+-----+
+
+a     0.10  0.05  0.025  0.01  0.005  0.001  
+c(a)  1.22  1.36  1.48   1.63  1.73   1.95 
+
 
 Decision Rule: Reject the null hypothesis if, 
 D > c(a)sqrt((n1 + n2)/(n1*n2))
@@ -149,13 +148,10 @@ alternative hypothesis: two-sided
 Decision Rule: Reject the null hypothesis if,
 D > c(a)sqrt((n1 + n2)/(n1*n2))
 
-+----+----+----+-----+----+-----+-----+
-|a   |0.10|0.05|0.025|0.01|0.005|0.001|
-+----+----+----+-----+----+-----+-----+
-|c(a)|1.22|1.36|1.48 |1.63|1.73 |1.95 |
-+----+----+----+-----+----+-----+-----+
+a     0.10  0.05  0.025  0.01  0.005  0.001  
+c(a)  1.22  1.36  1.48   1.63  1.73   1.95 
 
-Using alpha= 0.05, the critical value would be 6.805438 which is greater than 0.36, so I conclude to not reject the null hypothesis and state that the samples are drawn from the same distribution. 
+Using alpha=0.05, the critical value would be 6.805438 which is greater than 0.36, so I conclude to not reject the null hypothesis and state that the samples are drawn from the same distribution. 
 
 
 ###Analysis of Sample 4:
